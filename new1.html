@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LogIn • Instagram</title>
+  <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png">
+  <style>
+    /* Add your CSS styles here */
+    body {
+      background-color: #fafafa;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h1 {
+      font-size: 32px;
+      margin-top: 40px;
+    }
+    form {
+      margin-top: 40px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+    }
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      background-color: #3897f0;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+	 .text-center {
+      text-align: center;
+    }
+    a {
+      color: #3897f0;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="Instagram logo">
+    <form>
+      <input type="text" placeholder="Phone number, username, or email">
+      <input type="password" placeholder="Password">
+      <input type="submit" value="Log in" onclick="window.location.href = 'https://www.google.com/'; return false;">
+    </form>
+	    <p class="text-center">
+      <a href="#">Forgot password?</a>
+    </p>
+  </div>
+</body>
+</html>
